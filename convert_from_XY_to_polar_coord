@@ -1,7 +1,4 @@
-//Names of students in group: Julia Nentwig
-//Date: 10/31/2017
-//Homework # 9b
-//Problem # convert from XY to polar coord 
+// converts a point in the XY coordinate system to the polar coordinate system
 #include <iostream>
 #include <cmath>
 using namespace std;
