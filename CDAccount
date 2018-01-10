@@ -1,8 +1,14 @@
-//Names: Julia Nentwig
-//Date: 12/08/2017
-//Homework # 15
-//Problem # (Savitch problem 10-3)
+/*Redefine CDAccount from Display 10.1 so that it is a class rather than a structure.  Use the same member variables as in Display 10.1 but make them private.  Include member functions for each of the following:
+1.	One to return initial balance
+2.	One to return balance at maturity
+3.	One to return interest rate
+4.	One to return term
 
+Also do the following:
+1.	Include a constructor that sets the member variables to any specified values.
+2.	Include a default constructor.
+3.	Include an input member function  with one formal parameter of type istream
+4.	Include an output member function with one formal parameter of type ostream*/ 
 //
 #include<iostream>
 using namespace std;
