@@ -1,0 +1,33 @@
+//Names of students in group: Julia Nentwig
+//Date: 10/31/2017
+//Homework # 9b
+//Problem # convert from XY to polar coord 
+#include <iostream>
+#include <cmath>
+using namespace std;
+void convert_XY_to_polar(double& x, double& y, double& r, double& theta);
+//Precondition: x and y are the (x,y) coordinates of a point in the XY plane.
+//Postcondition: r and theta are the polar coordinates (r,theta) that correspond to (x,y)
+int main() {
+	double x, y, r, theta;
+	cout << "Input X and Y" << endl;
+	cin >> x >> y;
+	convert_XY_to_polar(x, y, r, theta);
+	cout << "That would be (" << r << ',' << theta << ')';
+	return 0;
+}
+
+void convert_XY_to_polar(double& x, double& y, double& r, double& theta){
+	const double PI = 2 * acos(0.0);
+	//determine r using hypot
+	r = hypot(x, y);
+	//determine theta
+	if (x >= 0){
+		if(y>=0)
+			theta = atan(y / x);
+		else
+			theta = 2*PI + atan(y / x);
+	}
+	else
+		theta = PI + atan(y / x);
+}
