@@ -3,8 +3,6 @@
 #include <fstream>
 #include <iostream>
 const int MAX_NUMBER = 240000;
-template <class T>
-void swap(T& v0, T& v1);
 void sortarray(int a[], int numberUsed);
 void populatearray(int a[], int& numberUsed, std::ifstream& stream);
 int main(){
@@ -37,11 +35,4 @@ void sortarray(int a[], int numberUsed){
 		}
 		a[j+1] = hold;
 	}
-}
-template <class T>
-void swap(T& v0, T& v1)
-{
-	T temp = v0;
-	v0 = v1;
-	v1 = temp;
 }
