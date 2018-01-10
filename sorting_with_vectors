@@ -1,8 +1,4 @@
-//Name: Julia Nentwig
-//Date: 12/04/2017
-//Homework # 14
-//Problem # (Savitch problem 8-9)
-
+ sorts numbers from an external file and then sending the output to another external file using vectors
 //
 #include <fstream>
 #include <iostream>
@@ -51,4 +47,3 @@ void swap(T& v0, T& v1)
 	v0 = v1;
 	v1 = temp;
 }
-
