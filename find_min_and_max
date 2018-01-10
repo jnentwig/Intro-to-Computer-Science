@@ -1,7 +1,4 @@
-//Names of students in group: Julia Nentwig
-//Date: 11/8/2017
-//Homework # 10
-//Problem # (Savitch problem 6-1) 
+//will search a file of numbers of type int and write the largest and the smallest numbers to the screen and also to an external file. 
 #include <fstream>
 #include <iostream>
 #include <climits>
