@@ -1,7 +1,5 @@
-//Name: Julia Nentwig
-//Date: 11/13/2017
-//Homework # 11
-//Problem # (Savitch problem 7-6) 
+//sorts numbers from an external file and then sending the output to another external file
+//uses insertion sort
 #include <fstream>
 #include <iostream>
 const int MAX_NUMBER = 240000;
