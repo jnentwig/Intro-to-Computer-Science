@@ -1,4 +1,4 @@
-//This program wasn't for a class assignment but I created after a class discussion
+//This program wasn't for a class assignment but I created it after a class discussion
 #include <iostream>
 using namespace std;
 int main( )
